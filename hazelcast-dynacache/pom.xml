@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.hazelcast</groupId>
         <artifactId>hazelcast-dynacache-root</artifactId>
-        <version>0.3</version>
+        <version>0.3.1</version>
     </parent>
 
     <artifactId>hazelcast-dynacache</artifactId>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast-dynacache-bundle</artifactId>
-            <version>0.3</version>
+            <version>0.3.1</version>
         </dependency>
     </dependencies>
 
@@ -37,7 +37,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.3.0</version>
                 <configuration>
                     <descriptors>
                         <descriptor>src/assembly/src.xml</descriptor>
@@ -56,7 +56,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
-                <version>1.7</version>
+                <version>1.8</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
